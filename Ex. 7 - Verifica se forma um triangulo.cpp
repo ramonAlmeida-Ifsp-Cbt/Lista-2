@@ -1,13 +1,13 @@
 /*
-* **** INSTITUTO FEDERAL - CAMPUS: CUBAT√O-SP **** *
-* **** Curso: TÈcnico de AutomaÁ„o Industrial **** *
+* **** INSTITUTO FEDERAL - CAMPUS: CUBAT√ÉO-SP **** *
+* **** Curso: T√©cnico de Automa√ß√£o Industrial **** *
 * ************************************************ *
 *                                                  *
-* ï Ano: 2026 / 1∫ semestre						   *
-* ï turma: CTA - 271 (noturno)                     *
-* ï Disiplina: CBTPROG - ProgramaÁ„o               *
-* ï Docente: Marco AurÈlio                         *
-* ï Aluno: Ramon Matheus Costa Almeida             *
+* ‚Ä¢ Ano: 2026 / 1¬∫ semestre						   *
+* ‚Ä¢ turma: CTA - 271 (noturno)                     *
+* ‚Ä¢ Disiplina: CBTPROG - Programa√ß√£o               *
+* ‚Ä¢ Docente: Marco Aur√©lio                         *
+* ‚Ä¢ Aluno: Ramon Matheus Costa Almeida             *
 * ************************************************ *
 */
 
@@ -19,23 +19,22 @@ int main(int argc, char** argv)
 {
 	
 	/* #########################################
-	####### Para existir Tri‚ngulo... ##########
-	### ...h· as seguintes condiÁıes:         ##
+	####### Para existir Tri√¢ngulo... ##########
+	### ...h√° as seguintes condi√ß√µes:         ##
 	##										   #
 	## Lados: a, b c                           #
-	## ï soma dos lados ("B" + "C") > lado "A" #
-	## ï soma dos lados ("A" + "C") > lado "B" #
-	## ï soma dos lados ("A" + "B") > lado "C" #
+	## ‚Ä¢ soma dos lados ("B" + "C") > lado "A" #
+	## ‚Ä¢ soma dos lados ("A" + "C") > lado "B" #
+	## ‚Ä¢ soma dos lados ("A" + "B") > lado "C" #
 	###                                       ##
 	###########################################*/
 	
-	//OBS: As trÍs condiÁıes devem ser satisfeitas.
+	//OBS: As tr√™s condi√ß√µes devem ser satisfeitas.
 	
-	//DeclaraÁ„o de vari·veis - lados do tri‚ngulo (A, B, C)
+	//Declara√ß√£o de vari√°veis - lados do tri√¢ngulo (A, B, C)
 	double ladoA = 0.0, ladoB = 0.0, ladoC = 0.0;
-	int verificador = -10;
 	
-	//Solicita ao usu·rio informar os valores dos lados do tri‚ngulo.
+	//Solicita ao usu√°rio informar os valores dos lados do tri√¢ngulo.
 	cout<<"Informar lado 'A' do triangulo: ";
 	cin>>ladoA;
 	
@@ -45,25 +44,25 @@ int main(int argc, char** argv)
 	cout<<"Informar lado 'C' do triangulo: ";
 	cin>>ladoC;
 
-	//verifica se os lados formam um tri‚ngulo
+	//verifica se os lados formam um tri√¢ngulo
 	if(((ladoA + ladoB) > ladoC) && ((ladoA + ladoC) > ladoB) && ((ladoB + ladoC) > ladoA))
 	{
 	
-		//verifica se È EQUIL¡TERO
+		//verifica se √© EQUIL√ÅTERO
 		if((ladoA == ladoB) && (ladoB == ladoC))
 		{
 			cout<<"\nEsse eh um triangulo EQUILATERO\n";
 		}
 		else
 		{
-			//verifica se È IS”SCELES
+			//verifica se √© IS√ìSCELES
 			if((ladoA == ladoB) || (ladoB == ladoC) || (ladoA == ladoC))
 			{
 				cout<<"\nEsse eh um triangulo ISOSCELES\n";
 			}
 			else
 			{
-				//Se n„o for EQUIL¡TERO nem IS”SCELES, ent„o È ESCALENO.
+				//Se n√£o for EQUIL√ÅTERO nem IS√ìSCELES, ent√£o √© ESCALENO.
 				cout<<"\nEsse eh um triangulo ESCALENO\n";
 			}
 		}  	 	 
