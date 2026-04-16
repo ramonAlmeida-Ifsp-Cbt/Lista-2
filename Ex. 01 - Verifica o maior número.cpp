@@ -24,11 +24,11 @@ int main(int argc, char** argv)
 	{
 		if(numA > numB)
 		{
-			cout<<"\nO numero "<<numA<<" eh maior que o numero "<<numB<<".";
+			cout<<"\nO 1. numero ("<<numA<<") eh maior que o 2. numero ("<<numB<<").";
 		}
 		else
 		{
-			cout<<"\nO numero "<<numB<<" eh maior que o numero "<<numA<<".";		
+			cout<<"\nO 2. numero ("<<numB<<") eh maior que o 1. numero ("<<numA<<").";		
 		}
 	}
 	else
