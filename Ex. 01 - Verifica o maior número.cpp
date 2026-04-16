@@ -20,11 +20,7 @@ int main(int argc, char** argv)
 	
 	/******* verifica qual é o maior ******/
 	
-	if (numA == numB)
-	{
-		cout<<"\nNao ha como verificar pois os numeros são iguais.\nO programa vai ser encerrado.\n";
-	}
-	else
+	if (numA != numB)
 	{
 		if(numA > numB)
 		{
@@ -34,6 +30,10 @@ int main(int argc, char** argv)
 		{
 			cout<<"\nO numero "<<numB<<" eh maior que o numero "<<numA<<".";		
 		}
+	}
+	else
+	{
+		cout<<"\nNao ha como verificar pois os numeros são iguais.\nO programa vai ser encerrado.\n";
 	}
 	return 0;
 }
