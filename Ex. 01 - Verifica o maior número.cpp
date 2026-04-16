@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 	
 	if (numA == numB)
 	{
-		cout<<"\nNao ha como verificar pois os numeros são iguais.\nO programa vai ser encerrado.\n"; return 0;
+		cout<<"\nNao ha como verificar pois os numeros são iguais.\nO programa vai ser encerrado.\n";
 	}
 	else
 	{
