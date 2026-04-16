@@ -5,34 +5,35 @@ using namespace std;
 int main(int argc, char** argv)
 {
 	
-	/******* Vari·veis *******/
+	/******* Vari√°veis *******/
 	double numA = 0.0, numB = 0.0;
 	
-	/*************** TÌtuto ******************/
+	/*************** T√≠tuto ******************/
 	cout<<"#### VERIFICA O MAIOR NUMERO #####\n\n";
 	
-	/**** solicitando ao usu·rio informar os valores ****/
+	/**** solicitando ao usu√°rio informar os valores ****/
 	cout<<"Digite um valor: ";
 	cin>>numA;
 	
 	cout<<"Digite outro valor (diferente do anterior): ";
 	cin>>numB;
 	
-	/******* verifica qual È o maior ******/
+	/******* verifica qual √© o maior ******/
 	
 	if (numA == numB)
 	{
-		cout<<"\nNao ha como verificar pois os numeros s„o iguais.\nO programa vai ser encerrado.\n"; return 0;
-	}
-	
-	if(numA > numB)
-	{
-		cout<<"\nO numero "<<numA<<" eh maior que o numero "<<numB<<".";
+		cout<<"\nNao ha como verificar pois os numeros s√£o iguais.\nO programa vai ser encerrado.\n"; return 0;
 	}
 	else
 	{
-		cout<<"\nO numero "<<numB<<" eh maior que o numero "<<numA<<".";		
+		if(numA > numB)
+		{
+			cout<<"\nO numero "<<numA<<" eh maior que o numero "<<numB<<".";
+		}
+		else
+		{
+			cout<<"\nO numero "<<numB<<" eh maior que o numero "<<numA<<".";		
+		}
 	}
-	
 	return 0;
 }
